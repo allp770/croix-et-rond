@@ -17,9 +17,9 @@ const conditionsVictoire = [
 ]
 
 // Messages
-const gagne = () => Le joueur ${joueurActif} a gagné
+const gagne = () => `Le joueur ${joueurActif} a gagné`
 const egalite = () => "matche nul"
-const tourJoueur = () => c'est a ton tour bolosse ${joueurActif}
+const tourJoueur = () => `c'est a ton tour bolosse ${joueurActif}`
 
 // On affiche quel joueur commence
 statut.innerHTML = tourJoueur()
