@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: blueviolet;
+    
+}
+
+#jeu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    height: px;
+    margin: auto;
+}
+
+.case{
+    border: 1px solid rgb(0, 253, 219);
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
